@@ -1,0 +1,61 @@
+﻿@page "/reservations/{customerId}"
+
+@using PortsideUi.Services.Interfaces
+@using Portside.Persistance.Model
+@inject IReservationService _reservationService
+
+@if (reservations is null)
+{
+    <p>
+        <em> Loading</em>
+    </p>
+}
+else
+{
+    <h3>Reservations for Customer @CustomerId</h3>
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Departure</th>
+            <th>Destination</th>
+            <th>Flight Date</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var reservation in reservations)
+        {
+            <tr>
+                <td>@reservation.Departure</td>
+                <td>@reservation.Destination</td>
+                <td>@reservation.FlightDate</td>
+                <td>@reservation.Price</td>
+                <td>
+                    <a
+                        @onclick="@(() => HandleDeleteReservation(@reservation.Id))">
+                        <button class="btn btn-outline-danger"> Delete </button>
+                    </a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+@code {
+    [Parameter] public string CustomerId { get; set; }
+    private IEnumerable<Reservation> reservations;
+
+    protected override async Task OnInitializedAsync()
+    {
+        reservations = await _reservationService.GetReservationsByCustomerIdAsync(CustomerId);
+    }
+    
+    private async Task HandleDeleteReservation(string reservationId)
+    {
+        await _reservationService.DeleteReservationAsync(reservationId);
+        reservations = await _reservationService.GetReservationsByCustomerIdAsync(CustomerId);
+    }
+}
+}

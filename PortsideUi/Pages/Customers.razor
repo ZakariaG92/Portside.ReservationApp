@@ -1,0 +1,71 @@
+﻿@page "/customers"
+@using Portside.Persistance.Model
+@using PortsideUi.Services.Interfaces
+@using Portside.Entities.Model
+@using AutoMapper
+@inject ICustomerService _customerService
+@inject IMapper _Mapper
+
+
+<div class="form-section">
+    <a href="createcustomer">
+    <button class="btn btn-outline-primary">Add Customer</button>
+    </a>
+</div>
+
+<br>
+
+
+@if (customersDto is null)
+{
+    <p>
+        <em> Loading</em>
+    </p>
+}
+else
+{
+    <h3>Customers</h3>
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var customer in customersDto)
+        {
+            <tr>
+                <td>@customer.FirstName</td>
+                <td>@customer.LastName</td>
+                <td>@customer.Email</td>
+                <td>@customer.Phone</td>
+                <td>
+                    <a href="reservations/@customer.Id">
+                        <button class="btn btn-outline-info">See Reservations</button>
+                    </a>
+                    <a href="createreservation/@customer.Id">
+                        <button class="btn btn-outline-success">Add Reservation</button>
+                    </a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+@code {
+    private List<CustomerDto> customersDto;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var customers = await _customerService.GetCustomersAsync();
+        if (customers is not null)
+        {
+            customersDto = _Mapper.Map<List<CustomerDto>>(customers);
+        }
+    }
+
+}}

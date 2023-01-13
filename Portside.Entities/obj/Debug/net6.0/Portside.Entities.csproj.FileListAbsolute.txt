@@ -1,0 +1,12 @@
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Entities\bin\Debug\net6.0\Portside.Entities.deps.json
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Entities\bin\Debug\net6.0\Portside.Entities.dll
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Entities\bin\Debug\net6.0\Portside.Entities.pdb
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Entities\obj\Debug\net6.0\Portside.Entities.csproj.AssemblyReference.cache
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Entities\obj\Debug\net6.0\Portside.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Entities\obj\Debug\net6.0\Portside.Entities.AssemblyInfoInputs.cache
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Entities\obj\Debug\net6.0\Portside.Entities.AssemblyInfo.cs
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Entities\obj\Debug\net6.0\Portside.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Entities\obj\Debug\net6.0\Portside.Entities.dll
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Entities\obj\Debug\net6.0\refint\Portside.Entities.dll
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Entities\obj\Debug\net6.0\Portside.Entities.pdb
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Entities\obj\Debug\net6.0\ref\Portside.Entities.dll

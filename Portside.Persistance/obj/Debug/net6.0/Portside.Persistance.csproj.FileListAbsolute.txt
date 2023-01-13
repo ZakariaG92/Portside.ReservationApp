@@ -1,0 +1,17 @@
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\bin\Debug\net6.0\Portside.Persistance.deps.json
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\bin\Debug\net6.0\Portside.Persistance.runtimeconfig.json
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\bin\Debug\net6.0\Portside.Persistance.dll
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\bin\Debug\net6.0\Portside.Persistance.pdb
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\bin\Debug\net6.0\Portside.Entities.dll
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\bin\Debug\net6.0\Portside.Entities.pdb
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\obj\Debug\net6.0\Portside.Persistance.csproj.AssemblyReference.cache
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\obj\Debug\net6.0\Portside.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\obj\Debug\net6.0\Portside.Persistance.AssemblyInfoInputs.cache
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\obj\Debug\net6.0\Portside.Persistance.AssemblyInfo.cs
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\obj\Debug\net6.0\Portside.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\obj\Debug\net6.0\Portside.Persistance.csproj.CopyComplete
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\obj\Debug\net6.0\Portside.Persistance.dll
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\obj\Debug\net6.0\refint\Portside.Persistance.dll
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\obj\Debug\net6.0\Portside.Persistance.pdb
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\obj\Debug\net6.0\Portside.Persistance.genruntimeconfig.cache
+C:\Users\Zakaria\RiderProjects\PortsideApp\Portside.Persistance\obj\Debug\net6.0\ref\Portside.Persistance.dll
